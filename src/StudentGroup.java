@@ -12,6 +12,7 @@ import java.util.Date;
  *
  */
 public class StudentGroup implements StudentArrayOperation {
+	public static void main(Strings[] Args){
 
 	private Student[] students;
 	
@@ -22,6 +23,7 @@ public class StudentGroup implements StudentArrayOperation {
 	public StudentGroup(int length) {
 		this.students = new Student[length];
 	}
+}
 
 	@Override
 	public Student[] getStudents() {
